@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply bg-slate-800;
+}
+
+.button-container {
+  @apply grid grid-cols-3 grid-rows-3 gap-4;
+}
+
+.cell {
+  @apply w-24 h-24 bg-white rounded-lg cursor-pointer;
+  @apply flex justify-center items-center hover:bg-slate-200 hover:scale-105;
+}
+
+.btn-reset {
+  @apply p-3 bg-orange-600  text-white rounded-md font-bold;
+}
+
+.title {
+  @apply text-7xl p-1;
+}
