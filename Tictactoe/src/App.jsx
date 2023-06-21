@@ -1,7 +1,9 @@
+import Tictactoe from './components/Tictactoe';
+
 function App() {
   return (
     <>
-      <h1>Tic tac toe</h1>
+      <Tictactoe />
     </>
   );
 }
